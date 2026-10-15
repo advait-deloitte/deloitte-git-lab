@@ -1,0 +1,28 @@
+# Agent framework
+langchain>=1.0,<2.0
+langgraph>=1.0,<2.0
+
+# Primary AI provider: Claude
+langchain-anthropic>=0.3,<2.0
+anthropic>=0.40,<2.0
+
+# Optional AI providers
+langchain-groq>=0.2,<2.0
+groq>=0.11,<2.0
+langchain-google-genai>=4.0,<5.0
+google-generativeai>=0.8,<1.0
+langchain-openai>=0.2,<2.0
+
+# App, data, storage, and configuration
+streamlit>=1.37,<2.0
+pandas>=2.2,<4.0
+pyarrow>=16,<30
+chromadb>=0.5,<2.0
+python-dotenv>=1.0,<2.0
+pydantic>=2.7,<3.0
+duckdb>=1.0,<2.0
+
+# Testing and visualization
+pytest>=8.0,<10.0
+matplotlib>=3.9,<4.0
+plotly>=5.22,<7.0
