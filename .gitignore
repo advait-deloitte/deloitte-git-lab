@@ -1,2 +1,40 @@
-*.log
-*.tmp
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+.idea/
+
+# Training and presentation files
+*.odp
+*.ppt
+*.pptx
+
+# Generated data
+*.parquet
+data/**/*.csv
+!data/landing/**/*.csv
+
+# Jupyter checkpoints and ChromaDB
+.ipynb_checkpoints/
+.chroma/
+
+# Generated output
+reports/
+audit_logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
